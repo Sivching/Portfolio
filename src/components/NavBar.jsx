@@ -13,10 +13,6 @@ const lists = [
     path: "/",
   },
   {
-    label: "About",
-    path: "about",
-  },
-  {
     label: "Skill",
     path: "skill",
   },

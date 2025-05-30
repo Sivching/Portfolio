@@ -6,9 +6,9 @@ import Contact from "../components/Contact";
 
 const Home = () => {
   return (
-    <div className="h-[500vh]  bg-slate-700 pb-24 overflow-hidden ">
+    <div className="  bg-slate-700 pb-24 overflow-hidden ">
       <Section />
-      <About />
+      {/* <About /> */}
       <Skill />
       <Contact />
     </div>

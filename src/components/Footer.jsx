@@ -4,41 +4,10 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-const lists = [
-  {
-    label: "Home",
-    path: "/",
-  },
-  {
-    label: "About",
-    path: "/about",
-  },
-  {
-    label: "Skill",
-    path: "/skill",
-  },
-  {
-    label: "Contact",
-    path: "/contact",
-  },
-];
+
 const Footer = () => {
   return (
-    <div className="bg-slate-800 h-[25vh]  flex flex-col gap-5 justify-center items-center">
-      <div className="  w-[90%] mx-auto flex justify-center gap-5 ">
-        {lists.map((p) => {
-          return (
-            <li className="font-bold text-gray-400 list-none lg:text-xl  ">
-              <Link
-                className=" hover:text-white transition-all ease-in-out duration-300"
-                to={p.path}
-              >
-                {p.label}
-              </Link>
-            </li>
-          );
-        })}
-      </div>
+    <div className="bg-slate-800 h-[25vh]   flex flex-col gap-5 justify-center items-center">
       <div className="flex justify-center  text-gray-400 gap-5 text-[25px] lg:text-3xl ">
         <a
           href="https://web.facebook.com/sivching.yi"
