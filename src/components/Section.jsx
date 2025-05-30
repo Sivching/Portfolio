@@ -25,7 +25,7 @@ const Section = () => {
         </p>
 
         <button className="px-3 py-3 xl:px-4 xl:py-4 lg:mt-7 font-bold text-md xl:text-lg rounded-xl hover:text-white mt-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
-          <a href="/public/Yi Sivching_Full Stack Developer.pdf" download>
+          <a href="/Yi_Sivching_Full_Stack_Developer.pdf" download>
             Download CV
           </a>
         </button>
