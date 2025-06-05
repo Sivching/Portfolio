@@ -4,7 +4,7 @@ import { IoCallSharp } from "react-icons/io5";
 
 const Contact = () => {
   return (
-    <div id="contact" className=" mt-72 ">
+    <div id="contact" className=" pt-44 ">
       <div className=" w-[90%] xl:w-[80%]  mx-auto ">
         <h1
           data-aos="fade-right"

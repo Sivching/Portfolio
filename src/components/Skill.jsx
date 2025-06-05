@@ -50,7 +50,7 @@ const images = [
 
 const Skill = () => {
   return (
-    <div id="skill" className="w-[90%] h-[100vh] pt-44 xl:w-[80%] mx-auto  ">
+    <div id="skill" className="w-[90%] pt-44  xl:w-[80%] mx-auto  ">
       <h1
         data-aos="fade-right"
         data-aos-delay="0"

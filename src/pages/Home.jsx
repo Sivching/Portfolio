@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="  bg-slate-700 pb-24 overflow-hidden ">
       <Section />
-      {/* <About /> */}
+      <About />
       <Skill />
       <Contact />
     </div>
